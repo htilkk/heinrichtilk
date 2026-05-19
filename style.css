@@ -127,7 +127,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .home-reel {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   aspect-ratio: 16 / 9;
   background: #0a0a0a;
   overflow: hidden;
