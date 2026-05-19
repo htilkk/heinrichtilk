@@ -46,7 +46,7 @@ body {
     radial-gradient(ellipse 90% 80% at 100% 100%,
                     rgba(0, 0, 255, 0.10) 0%,
                     rgba(0, 0, 255, 0.04) 35%,
-                    var(--off-white) 70%);
+                    var(--off-white) 50%);
   background-attachment: fixed;
   min-height: 100vh;
 }
@@ -122,7 +122,7 @@ button { font-family: inherit; cursor: pointer; }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--frame) var(--frame) calc(var(--frame) * 2);
+  padding: var(--frame) + 40px) var(--frame) calc(var(--frame) * 2);
 }
 
 .home-reel {
