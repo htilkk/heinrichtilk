@@ -43,10 +43,10 @@ body {
      The blue stop sits at 100% so most of the page reads off-white.
      Tweak the percentages to push/pull the blue tint. */
   background:
-    radial-gradient(ellipse 90% 80% at 100% 100%,
-                    rgba(0, 0, 255, 0.10) 0%,
-                    rgba(0, 0, 255, 0.04) 35%,
-                    var(--off-white) 50%);
+    radial-gradient(ellipse 130% 110% at 100% 100%,
+                    rgba(0, 0, 255, 0.18) 0%,
+                    rgba(0, 0, 255, 0.08) 40%,
+                    var(--off-white) 85%);
   background-attachment: fixed;
   min-height: 100vh;
 }
@@ -84,7 +84,7 @@ button { font-family: inherit; cursor: pointer; }
 .site-nav {
   display: flex;
   gap: 22px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 0;
   padding-top: 4px;
