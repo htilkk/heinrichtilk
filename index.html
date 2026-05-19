@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>heinrich tilk — videographer</title>
+  <meta name="description" content="heinrich tilk — videographer." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="monogram">ht</a>
+    <nav class="site-nav">
+      <a href="index.html" class="is-active">home</a>
+      <a href="projects.html">projects</a>
+      <a href="about.html">about</a>
+    </nav>
+  </header>
+
+  <main class="home">
+    <!-- ===========================================================
+         Drop your reel into /media/reel.mp4 (5-30s, 1080p, silent).
+         OR replace this <video> block with a Vimeo iframe if you'd
+         rather host the reel there — see snippet at the bottom.
+         =========================================================== -->
+    <div class="home-reel">
+      <video autoplay muted loop playsinline preload="auto"
+             poster="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80">
+        <source src="media/reel.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <p class="home-caption">
+      heinrich tilk<br />
+      selected works, 2021—
+    </p>
+  </main>
+
+  <!-- ===========================================================
+       If you'd rather embed from Vimeo (better video quality on
+       slow connections, no file to host), replace the .home-reel
+       block above with this:
+
+       <div class="home-reel">
+         <iframe
+           src="https://player.vimeo.com/video/VIMEO_ID?autoplay=1&loop=1&muted=1&background=1"
+           style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+           allow="autoplay; fullscreen"></iframe>
+       </div>
+
+       The `background=1` parameter hides ALL Vimeo player chrome
+       and makes it loop silently — perfect for hero reels.
+       =========================================================== -->
+
+</body>
+</html>
