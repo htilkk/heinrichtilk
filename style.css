@@ -198,6 +198,15 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--ink);
 }
 
+.page-intro {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-muted);
+  max-width: 540px;
+  margin-top: -32px;
+  margin-bottom: clamp(40px, 6vw, 80px);
+}
+
 /* 3-column thumbnail grid */
 .project-grid {
   display: grid;
