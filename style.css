@@ -295,6 +295,20 @@ button { font-family: inherit; cursor: pointer; }
   overflow: hidden;
 }
 
+.project-video.vertical {
+  aspect-ratio: 9 / 16;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-video.square {
+  aspect-ratio: 1 / 1;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .project-video iframe {
   position: absolute;
   inset: 0;
